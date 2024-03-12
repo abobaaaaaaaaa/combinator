@@ -8,8 +8,11 @@ def function():
     d = k.get
     def buttons():
         c = a.get()
+        g = len(c)
         d = int(k.get())
-        f = Label(m, text=f"{factorial(len(c) - d)}")
+        hj = fact(g - d)
+        fg = fact(g)
+        f = Label(m, text=f"{fg / hj}")
         f.pack()
     h = ttk.Button(m, text =" hgtubgthufnr3",command= buttons)
     h.pack(anchor=NW, padx=8, pady=8)
